@@ -57,9 +57,9 @@ function clickSortButton(){
         sortArray.push(node.innerText);
     });
     if (sortButton.classList == 'sort_button'){
-        sortArray = sortArray.sort().reverse();
-    } else{
         sortArray = sortArray.sort();
+    } else{
+        sortArray = sortArray.sort().reverse();
     }
    
    sortNode.forEach((node) =>{
