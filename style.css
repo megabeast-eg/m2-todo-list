@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: 'Roboto', 'Arial';
+    box-sizing: border-box;
+}
+
+form{
+    border: 2px solid #C4C4C4;
+    width: 350px;
+    border-radius: 13px;
+    margin: 0 auto;
+    
+}
+
+.yellow-straw{
+    background-color: #FFDC40;
+    height: 27px;
+    border-radius: 13px 13px 0px 0px;
+    margin-top: px;
+}
+.to-do-list{
+    width: 283px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p{
+    margin:0px;
+}
+
+.to-do-list-caption{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.sort{
+    text-align: right;
+    margin:5px;
+}
+
+.input{
+    display: flex;
+    border: 2px solid #C4C4C4;
+    border-radius: 13px;
+ 
+    margin:0 auto;
+}
+input{
+    border: none;
+    margin:5px;
+    outline: none;
+    width: 95%;
+}
+
+.delete-button{
+    margin:5px 30px 5px 0px;
+    height: 20px;
+}
+
+.add{
+    background-color: #833AE0;
+    border:none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 20px auto 20px;
+    padding:0px;
+    
+}
+
+.plus{
+    background-color: #9953F1;
+    border-radius:50%;
+    height: 100%;
+    width: 40px;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.p-add{
+    padding-left: 15px;
+}
+
+.sort_button{
+    background-image: url(./img/white_down.png);
+    width: 23px;
+    height: 15px;
+    margin-left:auto;
+}
+
+.sort_button:hover{
+    background-image: url(./img/black_down.png);
+    cursor: pointer;
+}
+
+.sort_button_up{
+    background-image: url(./img/white_up.png);
+    width: 23px;
+    height: 15px;
+    margin-left:auto;
+}
+
+.sort_button_up:hover{
+    background-image: url(./img/black_up.png);
+    cursor: pointer;
+}
+
+.delete-button:hover{
+    cursor: pointer;
+}
+
+.add:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.task-list{
+    border: 2px solid #C4C4C4;
+    border-radius: 13px;
+    max-height: 200px;
+    min-height: 100px;
+    margin-top: 10px;
+    overflow-y:auto;
+    display: none;
+}
+
+.task-list::-webkit-scrollbar{
+    width: 10px;
+   
+}
+
+.task-list::-webkit-scrollbar-track{
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+
+.task-list::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background: linear-gradient(180deg, #9953F1, #e1a9f7);
+        
+}
+.task-item{
+    display: flex;
+    max-width: 300px;
+    justify-content: space-between;
+}
+
+.task-content{
+    margin-left: 25px;
+    margin-top: 7px;
+    text-align: left;
+    word-break: break-all;
+}
+
+.violet{
+   margin-left:10px;
+}
+
+.violet:hover{
+    background-image: url(/img/delete_violet.png);
+}
+
+
+
+
