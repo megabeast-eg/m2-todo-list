@@ -171,10 +171,12 @@ input{
     margin-top: 10px;
     overflow-y:auto;
     display: none;
+    position: relative;
 }
 
 .task-list::-webkit-scrollbar{
     width: 0px;
+    
 }
 .task-item{
     display: flex;
